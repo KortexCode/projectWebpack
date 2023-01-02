@@ -28,11 +28,5 @@
     "webpack": "^5.75.0",
     "webpack-cli": "^5.0.1",
     "webpack-dev-server": "^4.11.1"
-  },
-  "dependencies": {
-    "-": "^0.0.1",
-    "copy": "^0.0.1",
-    "D": "^1.0.0",
-    "html": "^1.0.0"
   }
 }
