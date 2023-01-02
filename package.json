@@ -4,7 +4,9 @@
   "description": "Es projecto tiene el objetivo de implementar los siguientes empaquetadores: webpack, Rollup, Esbuild Y Vite. El objetivo es aprender sus usos y características.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --open --mode development",
+    "deploy" : "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
@@ -21,9 +23,11 @@
     "@babel/core": "^7.20.7",
     "babel-loader": "^9.1.0",
     "copy-webpack-plugin": "^11.0.0",
+    "gh": "^2.8.9",
     "html-webpack-plugin": "^5.5.0",
     "webpack": "^5.75.0",
-    "webpack-cli": "^5.0.1"
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.11.1"
   },
   "dependencies": {
     "-": "^0.0.1",
